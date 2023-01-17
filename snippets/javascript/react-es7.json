@@ -1556,12 +1556,17 @@
   },
   "divWithClass": {
     "prefix": "dvc",
-    "description": "Creates a React component class with ES7 module system and TypeScript interfaces",
-    "body": ["<div class=\"${1:first}\">  </div>"]
+    "description": "Creates a div",
+    "body": ["<div class=\"${1:first}\"></div>"]
   },
   "div": {
     "prefix": "dv",
-    "description": "Creates a React component class with ES7 module system and TypeScript interfaces",
+    "description": "Creates a div",
     "body": ["<div>${1:first}</div>"]
+  },
+  "fn": {
+    "prefix": "dv",
+    "description": "Creates a function",
+    "body": ["(${1:first}) => {${2:second}}"]
   }
 }
